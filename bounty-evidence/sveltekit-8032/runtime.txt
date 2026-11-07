@@ -1,0 +1,9 @@
+Production adapter-node server listening on localhost:4173
+PASS GET /health-highlight: 200 ok
+PASS GET /health-highlight?error=1: 500 with generic public message
+PASS request without browser correlation header: 200 ok
+PASS prerendered page: 200
+PASS local OTLP receiver: request spans and console logs exported
+PASS local OTLP receiver: unexpected exception exported
+PASS session correlation: highlight.session_id = demo-session
+Scope: real SDK 3.12.1, SvelteKit 2, local collector. Hosted Highlight ingestion not tested.

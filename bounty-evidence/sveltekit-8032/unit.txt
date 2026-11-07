@@ -1,0 +1,19 @@
+(node:13) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ guide has exactly two executable TypeScript snippets (0.767732ms)
+✔ initialization uses server service and development environment (30.222791ms)
+✔ request hook supplies name, headers, callback, and preserves response (3.832692ms)
+✔ unmatched route avoids recording raw URL or query strings (0.946976ms)
+✔ build/prerender bypasses initialization and telemetry (4.089535ms)
+✔ unexpected error is correlated and returns a generic public message (0.682016ms)
+✔ non-Error throws and absent correlation headers remain supported (1.351303ms)
+✔ request rejection remains visible to SvelteKit (0.797266ms)
+✔ verification endpoint returns ok and throws on its error path (1.170195ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 135.459001

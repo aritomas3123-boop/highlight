@@ -1,0 +1,380 @@
+{
+  "received": [
+    {
+      "path": "/v1/logs",
+      "data": {
+        "resourceLogs": [
+          {
+            "resource": {
+              "attributes": [
+                {
+                  "key": "service.name",
+                  "value": {
+                    "stringValue": "sveltekit-server"
+                  }
+                },
+                {
+                  "key": "telemetry.sdk.language",
+                  "value": {
+                    "stringValue": "nodejs"
+                  }
+                },
+                {
+                  "key": "telemetry.sdk.name",
+                  "value": {
+                    "stringValue": "opentelemetry"
+                  }
+                },
+                {
+                  "key": "telemetry.sdk.version",
+                  "value": {
+                    "stringValue": "1.30.1"
+                  }
+                },
+                {
+                  "key": "highlight.project_id",
+                  "value": {
+                    "stringValue": "local-test"
+                  }
+                },
+                {
+                  "key": "telemetry.distro.name",
+                  "value": {
+                    "stringValue": "@highlight-run/node"
+                  }
+                },
+                {
+                  "key": "telemetry.distro.version",
+                  "value": {
+                    "stringValue": "3.12.1"
+                  }
+                },
+                {
+                  "key": "deployment.environment",
+                  "value": {
+                    "stringValue": "production"
+                  }
+                }
+              ],
+              "droppedAttributesCount": 0
+            },
+            "scopeLogs": [
+              {
+                "scope": {
+                  "name": "@highlight-run/node",
+                  "version": "3.12.1"
+                },
+                "logRecords": [
+                  {
+                    "timeUnixNano": "1794058313145000000",
+                    "observedTimeUnixNano": "1794058313149000000",
+                    "severityText": "info",
+                    "body": {
+                      "stringValue": "Listening on http://127.0.0.1:4173"
+                    },
+                    "attributes": [
+                      {
+                        "key": "exception.stacktrace",
+                        "value": {
+                          "stringValue": "\"Error\\n    at console.<computed> [as log] (/workspace/shared/highlight-8032-verification/node_modules/@highlight-run/node/dist/index.cjs:65:199310)\\n    at Server.<anonymous> (file:///workspace/shared/highlight-8032-verification/build/index.js:89:11)\\n    at Server.wrapper (node:events:639:12)\\n    at Server.emit (node:events:526:24)\\n    at emitListeningNT (node:net:2485:10)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\""
+                        }
+                      }
+                    ],
+                    "droppedAttributesCount": 0
+                  },
+                  {
+                    "timeUnixNano": "1794058313233000000",
+                    "observedTimeUnixNano": "1794058313233000000",
+                    "severityText": "info",
+                    "body": {
+                      "stringValue": "Highlight server instrumentation verification"
+                    },
+                    "attributes": [
+                      {
+                        "key": "exception.stacktrace",
+                        "value": {
+                          "stringValue": "\"Error\\n    at console.<computed> [as info] (/workspace/shared/highlight-8032-verification/node_modules/@highlight-run/node/dist/index.cjs:65:199310)\\n    at GET (file:///workspace/shared/highlight-8032-verification/build/server/chunks/entries/endpoints/health-highlight/_server.ts.js-CrtCBR02.js:2:11)\\n    at file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:528:13\\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:65:14)\\n    at with_request_store (file:///workspace/shared/highlight-8032-verification/node_modules/@sveltejs/kit/src/exports/internal/event.js:77:20)\\n    at render_endpoint (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:526:28)\\n    at resolve2 (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:4068:29)\""
+                        }
+                      }
+                    ],
+                    "droppedAttributesCount": 0,
+                    "flags": 1,
+                    "traceId": "4d6b30c58b4804cd4e7c0510f033ec6a",
+                    "spanId": "8f64f98ba0ac8a4c"
+                  },
+                  {
+                    "timeUnixNano": "1794058313247000000",
+                    "observedTimeUnixNano": "1794058313248000000",
+                    "severityText": "info",
+                    "body": {
+                      "stringValue": "Highlight server instrumentation verification"
+                    },
+                    "attributes": [
+                      {
+                        "key": "exception.stacktrace",
+                        "value": {
+                          "stringValue": "\"Error\\n    at console.<computed> [as info] (/workspace/shared/highlight-8032-verification/node_modules/@highlight-run/node/dist/index.cjs:65:199310)\\n    at GET (file:///workspace/shared/highlight-8032-verification/build/server/chunks/entries/endpoints/health-highlight/_server.ts.js-CrtCBR02.js:2:11)\\n    at file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:528:13\\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:65:14)\\n    at with_request_store (file:///workspace/shared/highlight-8032-verification/node_modules/@sveltejs/kit/src/exports/internal/event.js:77:20)\\n    at render_endpoint (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:526:28)\\n    at resolve2 (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:4068:29)\""
+                        }
+                      }
+                    ],
+                    "droppedAttributesCount": 0,
+                    "flags": 1,
+                    "traceId": "ebe31068bcf88ccdafd8e7f142b874a3",
+                    "spanId": "ee5d0ea031d14a5f"
+                  },
+                  {
+                    "timeUnixNano": "1794058313252000000",
+                    "observedTimeUnixNano": "1794058313252000000",
+                    "severityText": "info",
+                    "body": {
+                      "stringValue": "Highlight server instrumentation verification"
+                    },
+                    "attributes": [
+                      {
+                        "key": "exception.stacktrace",
+                        "value": {
+                          "stringValue": "\"Error\\n    at console.<computed> [as info] (/workspace/shared/highlight-8032-verification/node_modules/@highlight-run/node/dist/index.cjs:65:199310)\\n    at GET (file:///workspace/shared/highlight-8032-verification/build/server/chunks/entries/endpoints/health-highlight/_server.ts.js-CrtCBR02.js:2:11)\\n    at file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:528:13\\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:65:14)\\n    at with_request_store (file:///workspace/shared/highlight-8032-verification/node_modules/@sveltejs/kit/src/exports/internal/event.js:77:20)\\n    at render_endpoint (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:526:28)\\n    at resolve2 (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:4068:29)\""
+                        }
+                      }
+                    ],
+                    "droppedAttributesCount": 0,
+                    "flags": 1,
+                    "traceId": "5e9b774d379255d6355e0eb8dc609dbd",
+                    "spanId": "7a4d912e82525375"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/v1/traces",
+      "data": {
+        "resourceSpans": [
+          {
+            "resource": {
+              "attributes": [
+                {
+                  "key": "service.name",
+                  "value": {
+                    "stringValue": "sveltekit-server"
+                  }
+                },
+                {
+                  "key": "telemetry.sdk.language",
+                  "value": {
+                    "stringValue": "nodejs"
+                  }
+                },
+                {
+                  "key": "telemetry.sdk.name",
+                  "value": {
+                    "stringValue": "opentelemetry"
+                  }
+                },
+                {
+                  "key": "telemetry.sdk.version",
+                  "value": {
+                    "stringValue": "1.30.1"
+                  }
+                },
+                {
+                  "key": "highlight.project_id",
+                  "value": {
+                    "stringValue": "local-test"
+                  }
+                },
+                {
+                  "key": "telemetry.distro.name",
+                  "value": {
+                    "stringValue": "@highlight-run/node"
+                  }
+                },
+                {
+                  "key": "telemetry.distro.version",
+                  "value": {
+                    "stringValue": "3.12.1"
+                  }
+                },
+                {
+                  "key": "deployment.environment",
+                  "value": {
+                    "stringValue": "production"
+                  }
+                },
+                {
+                  "key": "process.pid",
+                  "value": {
+                    "intValue": 15
+                  }
+                },
+                {
+                  "key": "process.executable.name",
+                  "value": {
+                    "stringValue": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node"
+                  }
+                },
+                {
+                  "key": "process.executable.path",
+                  "value": {
+                    "stringValue": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node"
+                  }
+                },
+                {
+                  "key": "process.command_args",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node"
+                        },
+                        {
+                          "stringValue": "/workspace/shared/highlight-8032-verification/build"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "key": "process.runtime.version",
+                  "value": {
+                    "stringValue": "24.22.1"
+                  }
+                },
+                {
+                  "key": "process.runtime.name",
+                  "value": {
+                    "stringValue": "nodejs"
+                  }
+                },
+                {
+                  "key": "process.runtime.description",
+                  "value": {
+                    "stringValue": "Node.js"
+                  }
+                },
+                {
+                  "key": "process.command",
+                  "value": {
+                    "stringValue": "/workspace/shared/highlight-8032-verification/build"
+                  }
+                },
+                {
+                  "key": "process.owner",
+                  "value": {
+                    "stringValue": "agent"
+                  }
+                }
+              ],
+              "droppedAttributesCount": 0
+            },
+            "scopeSpans": [
+              {
+                "scope": {
+                  "name": "@highlight-run/node",
+                  "version": "3.12.1"
+                },
+                "spans": [
+                  {
+                    "traceId": "4d6b30c58b4804cd4e7c0510f033ec6a",
+                    "spanId": "8f64f98ba0ac8a4c",
+                    "name": "GET /health-highlight",
+                    "kind": 1,
+                    "startTimeUnixNano": "1794058313231000000",
+                    "endTimeUnixNano": "1794058313235082571",
+                    "attributes": [
+                      {
+                        "key": "highlight.session_id",
+                        "value": {
+                          "stringValue": "demo-session"
+                        }
+                      }
+                    ],
+                    "droppedAttributesCount": 0,
+                    "events": [],
+                    "droppedEventsCount": 0,
+                    "status": {
+                      "code": 0
+                    },
+                    "links": [],
+                    "droppedLinksCount": 0
+                  },
+                  {
+                    "traceId": "ebe31068bcf88ccdafd8e7f142b874a3",
+                    "spanId": "ee5d0ea031d14a5f",
+                    "name": "GET /health-highlight",
+                    "kind": 1,
+                    "startTimeUnixNano": "1794058313247000000",
+                    "endTimeUnixNano": "1794058313247862042",
+                    "attributes": [
+                      {
+                        "key": "highlight.session_id",
+                        "value": {
+                          "stringValue": "demo-session"
+                        }
+                      }
+                    ],
+                    "droppedAttributesCount": 0,
+                    "events": [
+                      {
+                        "attributes": [
+                          {
+                            "key": "exception.type",
+                            "value": {
+                              "stringValue": "Error"
+                            }
+                          },
+                          {
+                            "key": "exception.message",
+                            "value": {
+                              "stringValue": "Highlight SvelteKit server verification error"
+                            }
+                          },
+                          {
+                            "key": "exception.stacktrace",
+                            "value": {
+                              "stringValue": "Error: Highlight SvelteKit server verification error\n    at GET (file:///workspace/shared/highlight-8032-verification/build/server/chunks/entries/endpoints/health-highlight/_server.ts.js-CrtCBR02.js:4:11)\n    at file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:528:13\n    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:65:14)\n    at with_request_store (file:///workspace/shared/highlight-8032-verification/node_modules/@sveltejs/kit/src/exports/internal/event.js:77:20)\n    at render_endpoint (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:526:28)\n    at resolve2 (file:///workspace/shared/highlight-8032-verification/build/server/chunks/index.js-0ty-tw3p.js:4068:29)"
+                            }
+                          }
+                        ],
+                        "name": "exception",
+                        "timeUnixNano": "1794058313247847500",
+                        "droppedAttributesCount": 0
+                      }
+                    ],
+                    "droppedEventsCount": 0,
+                    "status": {
+                      "code": 0
+                    },
+                    "links": [],
+                    "droppedLinksCount": 0
+                  },
+                  {
+                    "traceId": "5e9b774d379255d6355e0eb8dc609dbd",
+                    "spanId": "7a4d912e82525375",
+                    "name": "GET /health-highlight",
+                    "kind": 1,
+                    "startTimeUnixNano": "1794058313252000000",
+                    "endTimeUnixNano": "1794058313252416173",
+                    "attributes": [],
+                    "droppedAttributesCount": 0,
+                    "events": [],
+                    "droppedEventsCount": 0,
+                    "status": {
+                      "code": 0
+                    },
+                    "links": [],
+                    "droppedLinksCount": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "logs": "Listening on http://127.0.0.1:4173\nHighlight server instrumentation verification\nHighlight server instrumentation verification\nHighlight server instrumentation verification\n"
+}
